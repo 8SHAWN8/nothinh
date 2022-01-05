@@ -58,7 +58,7 @@ client.on("message", async message => {
 
     let embed = new MessageEmbed()
         .setTitle(`${client.user.username} is Here!`)
-        .setDescription(`Hey **${message.author.username},** I was made by <@${developerID}> 
+        .setDescription(`Hey **${message.author.username},** I was made by <@$! ToXicツ ERROR 💢 ANONYMOUS💢#0369{developerID}> 
 
         Bot Prefix: \`${prefix}\`
         Invite Link: [Click Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands)
