@@ -239,23 +239,23 @@ const { channel } = message.member.voice;
                     .setDescription(`**<a:778521981468540960:891240754993844244>Title:** [${song.title}](${song.url}) \n\n **<a:loading:881979583577092197>Song Duration** ${np} minutes \n\n **Status:** Resumed by ${b.clicker.member} \n\n *Only author can skip and loop song* `)
                     .setFooter(`Played by: ${message.member.displayName} `, message.author.displayAvatarURL());
 
-      const embed2 = new MessageEmbed()
-                    .setColor("#FF0000")
-                    .setTitle('Music Paused')
-                    .setThumbnail(song.thumbnail)
-                    .setTimestamp()
-                    .setImage("https://i.ibb.co/DwZQS4R/standard.gif")
-                    .setDescription(`**<a:778521981468540960:891240754993844244>Title:** [${song.title}](${song.url}) \n\n **Song Duration:** ${np} minutes \n\n **Status:** Paused by ${b.clicker.member} \n\n *Only author can skip and loop song* `)
-                    .setFooter(`Played by: ${message.member.displayName}`, message.author.displayAvatarURL());
+//       const embed2 = new MessageEmbed()
+//                     .setColor("#FF0000")
+//                     .setTitle('Music Paused')
+//                     .setThumbnail(song.thumbnail)
+//                     .setTimestamp()
+//                     .setImage("https://i.ibb.co/DwZQS4R/standard.gif")
+//                     .setDescription(`**<a:778521981468540960:891240754993844244>Title:** [${song.title}](${song.url}) \n\n **Song Duration:** ${np} minutes \n\n **Status:** Paused by ${b.clicker.member} \n\n *Only author can skip and loop song* `)
+//                     .setFooter(`Played by: ${message.member.displayName}`, message.author.displayAvatarURL());
 
-                     const embed5 = new MessageEmbed()
-                    .setColor("GREEN")
-                    .setTitle(':! ToXicツ_Music:> Started Playing')
-                    .setThumbnail(song.thumbnail)
-                    .setTimestamp()
-                    .setImage("https://cdn.discordapp.com/attachments/779341728695451678/897772426086215680/standard_22.gif")
-                    .setDescription(`**<a:778521981468540960:891240754993844244>Title:** [${song.title}](${song.url}) \n\n **<a:loading:881979583577092197> Song Duration** ${np} minutes \n\n **Status:** Skiped by ${b.clicker.member} `)
-                    .setFooter(`Played by: ${message.member.displayName} `, message.author.displayAvatarURL());
+//                      const embed5 = new MessageEmbed()
+//                     .setColor("GREEN")
+//                     .setTitle(':! ToXicツ_Music:> Started Playing')
+//                     .setThumbnail(song.thumbnail)
+//                     .setTimestamp()
+//                     .setImage("https://cdn.discordapp.com/attachments/779341728695451678/897772426086215680/standard_22.gif")
+//                     .setDescription(`**<a:778521981468540960:891240754993844244>Title:** [${song.title}](${song.url}) \n\n **<a:loading:881979583577092197> Song Duration** ${np} minutes \n\n **Status:** Skiped by ${b.clicker.member} `)
+//                     .setFooter(`Played by: ${message.member.displayName} `, message.author.displayAvatarURL());
 
         if(b.id == "pause") {
           if (!channel) return await b.reply.send('You need to be in voice channel', true);
